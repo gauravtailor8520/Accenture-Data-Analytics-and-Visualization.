@@ -24,7 +24,7 @@ The Accenture Data Analysis and Visualization Virtual Program represents a cutti
  - One of Accenture’s Managing Directors, Mae Mulligan, is the client lead for Social Buzz.
  - She has reviewed the brief provided by Social Buzz and has assembled a diverse team of Accenture experts to deliver the project.
  - Mae has scheduled a project kick off call with the internal Accenture project team for tomorrow morning.
- - About Client : [Social Buzz](https://github.com/Sinhaaz/Accenture-Data-Analytics-and-Visualization-Virtual-Internship/blob/main/Data_Analytics%20Client%20Brief.pdf)
+ - About Client : [Social Buzz]([https://github.com/Sinhaaz/Accenture-Data-Analytics-and-Visualization-Virtual-Internship/blob/main/Data_Analytics%20Client%20Brief.pdf](https://github.com/gauravtailor8520/Accenture-Data-Analytics-and-Visualization./blob/7781ab46ace3003a65a171f35444ba02b9dd34bb/Data_Analytics%20Client%20Brief.pdf))
 
 #### Task for Accenture : 
 
