@@ -24,17 +24,46 @@ The Accenture Data Analysis and Visualization Virtual Program represents a cutti
  - One of Accenture’s Managing Directors, Mae Mulligan, is the client lead for Social Buzz.
  - She has reviewed the brief provided by Social Buzz and has assembled a diverse team of Accenture experts to deliver the project.
  - Mae has scheduled a project kick off call with the internal Accenture project team for tomorrow morning.
- - About Client : [Social Buzz]([https://github.com/Sinhaaz/Accenture-Data-Analytics-and-Visualization-Virtual-Internship/blob/main/Data_Analytics%20Client%20Brief.pdf](https://github.com/gauravtailor8520/Accenture-Data-Analytics-and-Visualization./blob/7781ab46ace3003a65a171f35444ba02b9dd34bb/Data_Analytics%20Client%20Brief.pdf))
+ - About Client : [Data_Analytics Client Brief](https://github.com/gauravtailor8520/Accenture-Data-Analytics-and-Visualization./blob/ce23ad389c9dd3ae9cdd636c0269dfee480a1f72/Data_Analytics%20Client%20Brief.pdf)
 
 #### Task for Accenture : 
 
  >- Client's Problem that Accenture is tasked to address : The client has reached a massive scale within recent years and does not have the resources internally to handle it.
  >- Three requirements that Accenture is tasked to fulfill : Audit of big data practice, recommendations for IPO, analysis of popular content
  
- #### Accenture Project Team :
- <img src = "Project Team.png">
- 
  #### Task for Data Analyst :
-Analysis of sample data sets with visualizations to understand the popularity of different content categories.
+In the Accenture Data Analysis and Visualization Virtual Program, the data analyst plays a pivotal role by conducting exploratory data analysis, implementing advanced analytics techniques, and creating visually compelling dashboards. Engaging in collaborative virtual exploration, they tailor analyses to specific industries, ensuring relevance and applicability. Continuous learning is emphasized through participation in workshops, supporting the development of skills. Quality assurance measures are implemented, and the analyst contributes strategically by providing data-driven insights to support decision-making. The role involves documentation of methodologies and findings, gathering feedback for iterative improvements, and maintaining adaptability to evolving project requirements. **“An analysis of their content categories showing the top 5 categories with the largest popularity”.** 
 
-In short, the client wanted to see **“An analysis of their content categories showing the top 5 categories with the largest popularity”.** 
+## Task - 2
+ - Often you won’t need all these datasets to find what you’re looking for.
+ - So, the first step is to use this [data model](https://github.com/gauravtailor8520/Accenture-Data-Analytics-and-Visualization./blob/ce23ad389c9dd3ae9cdd636c0269dfee480a1f72/Data%20model.pdf) to identify which datasets will be required to answer your business question - which is to to figure out the top 5 categories with the largest popularity.
+ - After Analysis we got data sets needed to complete analysis:
+ >- Reaction Score(score is used to quantified the popularity)
+ >- Content ID
+ >- Reaction Types
+ >- Content type
+ >- Category
+ 
+### Data Cleaning:
+#### Clean the data by:
+ - removing rows that have values which are missing,
+ - changing the data type of some values within a column, and
+ - removing columns which are not relevant to this task.
+ - - Think about how each column might be relevant to the business question you’re investigating. If you can’t think of why a column may be useful, it may not be worth including it.
+
+**End result will be three cleaned data set :**
+ - [Reaction Types](https://github.com/gauravtailor8520/Accenture-Data-Analytics-and-Visualization./blob/ce23ad389c9dd3ae9cdd636c0269dfee480a1f72/ReactionTypes.csv)
+ - [Reactions](https://github.com/gauravtailor8520/Accenture-Data-Analytics-and-Visualization./blob/ce23ad389c9dd3ae9cdd636c0269dfee480a1f72/Reactions.csv)
+ - [Content](https://github.com/gauravtailor8520/Accenture-Data-Analytics-and-Visualization./blob/ce23ad389c9dd3ae9cdd636c0269dfee480a1f72/Content.csv)
+
+### Data Modelling:
+
+**Create a final data set by merging 3 tables**
+
+**End result will be one spreadsheet**
+ - A cleaned dataset
+ - Top 5 categories
+ 
+ ### Cleaned Data set:
+ So, the cleaned data set after data modelling & data cleaning : [Cleaned Dataset](https://github.com/Sinhaaz/Accenture-Data-Analytics-and-Visualization-Virtual-Internship/blob/main/Cleaned%20Dataset.xlsx)
+ 
